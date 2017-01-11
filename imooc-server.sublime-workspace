@@ -1,0 +1,276 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"p",
+				"phoneNumber"
+			],
+			[
+				"mod",
+				"models_path"
+			],
+			[
+				"fi",
+				"filePath"
+			],
+			[
+				"file",
+				"filePath"
+			],
+			[
+				"model",
+				"modelPath"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"mo",
+				"mongoose"
+			],
+			[
+				"Us",
+				"UserSchema"
+			],
+			[
+				"st",
+				"String"
+			],
+			[
+				"rou",
+				"router"
+			],
+			[
+				"r",
+				"router"
+			],
+			[
+				"se",
+				"session"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/User/node.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"install package",
+				"Package Control: Install Package"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"",
+				"Set Syntax: JavaScript (Rails)"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 694.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/Exercise/MyNodeJs/imooc-server/app.js",
+		"/E/Exercise/MyNodeJs/imooc-server/config/routes.js",
+		"/E/Exercise/MyNodeJs/imooc-server/app/models/user.js",
+		"/E/Exercise/MyNodeJs/imooc-server/app/controllers/user.js",
+		"/E/Exercise/MyNodeJs/imooc-server/app/controllers/app.js",
+		"/E/Exercise/MyNodeJs/imooc-server/node_modules/koa/package.json",
+		"/E/Exercise/MyNodeJs/imooc-server/node_modules/koa-router/package.json",
+		"/E/Exercise/MyNodeJs/imooc-server/package.json",
+		"/E/Exercise/MyNodeJs/imooc-server/node_modules/mongoose/package.json",
+		"/E/Exercise/MyNodeJs/movie/test/user/user.js",
+		"/E/Exercise/MyNodeJs/movie/gruntfile.js",
+		"/E/Exercise/MyNodeJs/movie/app.js",
+		"/E/Exercise/MyNodeJs/movie/app/controllers/user.js",
+		"/E/Exercise/MyNodeJs/movie/app/models/user.js",
+		"/E/Exercise/MyNodeJs/movie/config/routes.js",
+		"/E/Exercise/MyNodeJs/movie/app/controllers/index.js",
+		"/E/Exercise/MyNodeJs/movie/app/schemas/user.js",
+		"/E/Exercise/MyNodeJs/movie/app/views/includes/header.jade",
+		"/E/Exercise/MyNodeJs/movie/package.json",
+		"/E/Exercise/MyNodeJs/movie/app/schemas/movie.js",
+		"/E/Exercise/MyNodeJs/movie/app/schemas/comment.js",
+		"/E/Exercise/MyNodeJs/movie/app/schemas/category.js",
+		"/E/Exercise/MyNodeJs/movie/app/views/includes/head.jade",
+		"/E/Exercise/MyNodeJs/movie/node_modules/grunt/package.json",
+		"/E/Exercise/MyNodeJs/movie/node_modules/grunt-mocha-test/package.json",
+		"/E/Exercise/MyNodeJs/movie/.nodemonignore",
+		"/E/Exercise/MyNodeJs/movie-project/models/movie.js",
+		"/C/Users/heke/Desktop/批次.txt",
+		"/E/Exercise/MyNodeJs/movie-project/app.js",
+		"/E/Exercise/MyNodeJs/movie-project/schemas/movie.js",
+		"/E/Exercise/MyNodeJs/movie-project/package.json",
+		"/E/Exercise/MyNodeJs/movie-project/views/pages/list.jade",
+		"/E/Exercise/MyNodeJs/movie-project/bower.json",
+		"/E/Exercise/MyNodeJs/movie-project/views/pages/index.jade",
+		"/E/Exercise/MyNodeJs/movie-project/public/js/admin.js",
+		"/E/Exercise/MyNodeJs/movie-project/views/layout.jade",
+		"/E/Exercise/MyNodeJs/movie-project/views/includes/head.jade",
+		"/E/Exercise/MyNodeJs/movie-project/views/includes/header.jade",
+		"/C/Users/heke/Desktop/sublime/js1",
+		"/C/Users/heke/AppData/Roaming/Sublime Text 2/Packages/User/node.sublime-build",
+		"/C/Users/heke/Desktop/sublime/行列转换",
+		"/C/Users/heke/Desktop/sublime/text",
+		"/C/Users/heke/AppData/Roaming/Sublime Text 2/Packages/User/untitled.sublime-build",
+		"/C/Users/heke/Desktop/sublime/label"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"E:\\Exercise\\MyNodeJs\\movie\\",
+			"E:\\Exercise\\MyNodeJs\\movie\\node_modules",
+			"E:\\Exercise\\MyNodeJs\\movie",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"truncate table",
+			"(",
+			"[Id],",
+			"SellerMappingForCompany",
+			"declare",
+			"findOne",
+			"'bcrypt'",
+			"build",
+			"build/Release/bson",
+			"bson",
+			"coffee-script",
+			"0.1.22",
+			"async",
+			"},\n",
+			"sync",
+			",",
+			"String",
+			"China",
+			"11437",
+			"11438",
+			",",
+			"11429",
+			"1",
+			"11429"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 118.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 249.0,
+	"status_bar_visible": true
+}
