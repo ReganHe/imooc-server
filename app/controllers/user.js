@@ -33,9 +33,13 @@ exports.signup=function * (next) {
 		this.body={
 			success:true
 		}
-		return
+		return next
 	}
+
 	console.log(user)
+	this.body = {
+	    success: true
+	}
 
 }
 
