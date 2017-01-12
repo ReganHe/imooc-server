@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"req",
+				"require"
+			],
+			[
 				"p",
 				"phoneNumber"
 			],
@@ -55,6 +59,42 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app/controllers/user.js",
+			"settings":
+			{
+				"buffer_size": 908,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "config/routes.js",
+			"settings":
+			{
+				"buffer_size": 402,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app.js",
+			"settings":
+			{
+				"buffer_size": 962,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "'use strict'\n\nvar https = require('https')\nvar querystring = require('querystring')\nvar Promise=require('bluebird')\nvar speakeasy=require('speakeasy')\n\nexports.getCode=function(){\n	var code=speakeasy.totp({\n		secret: 'imoocisnice',\n		digits: 4\n	})\n	return code\n}\n\nexports.send=function(phoneNumber,msg){\n	return new Promise(function(resolve,reject)){\n		if(!phoneNumber){\n			return  reject(new Error('手机号为空!'))\n		}\n\n		var postData = {\n		    mobile: phoneNumber,\n		    message: msg\n		}\n		var content = querystring.stringify(postData)\n		var options = {\n		    host: 'sms-api.luosimao.com',\n		    path: '/v1/send.json',\n		    method: 'POST',\n		    auth: 'api:key-5a1d0ea1c7e719b973700a39d99f43be',\n		    agent: false,\n		    rejectUnauthorized: false,\n		    headers:{\n			    'Content-Type': 'application/x-www-form-urlencoded',\n			    'Content-Length': content.length\n		    }\n		}\n\n		var str= ''\n		var req = https.request(options,function(res){\n			if(res.statusCode===404){\n				reject(new Error('短信服务器没有响应'))\n				return\n			}\n\n		    res.setEncoding('utf8')\n		    res.on('data', function (chunk) {\n		    	str+= chunk\n		    	console.log(JSON.parse(chunk))\n		    })\n		    res.on('end',function(){\n		    	if(data.error===0){\n\n		    	}\n		    	else{\n\n'-10':	验证信息失败	\n'-20':	短信余额不足	\n'-30':	短信内容为空	\n'-31':	短信内容存在敏感词	\n'-32':	短信内容缺少签名信息	\n'-40':	错误的手机号	\n'-41':	号码在黑名单中	\n'-42':	验证码类短信发送频率过快\n'-50':	请求发送IP不在白名单内	\n\n		    	}\n		    	console.log('over')\n		    })\n		})\n\n		req.write(content)\n		req.end()\n	}\n}\n\n",
+			"file": "app/services/sms.js",
+			"file_size": 16,
+			"file_write_time": 131285931270572817,
+			"settings":
+			{
+				"buffer_size": 1482,
+				"line_ending": "Windows",
+				"name": "sms.js"
+			}
+		}
 	],
 	"build_system": "Packages/User/node.sublime-build",
 	"command_palette":
@@ -165,6 +205,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			";",
+			":'",
+			"'",
+			":",
+			";",
 			"truncate table",
 			"(",
 			"[Id],",
@@ -206,8 +251,117 @@
 	"groups":
 	[
 		{
+			"selected": 3,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/controllers/user.js",
+					"settings":
+					{
+						"buffer_size": 908,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								470,
+								470
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "config/routes.js",
+					"settings":
+					{
+						"buffer_size": 402,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								340,
+								340
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app.js",
+					"settings":
+					{
+						"buffer_size": 962,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								855,
+								855
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/services/sms.js",
+					"settings":
+					{
+						"buffer_size": 1482,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1243,
+								1243
+							]
+						],
+						"settings":
+						{
+							"auto_name": "sms.js",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 324.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],

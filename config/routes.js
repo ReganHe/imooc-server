@@ -10,7 +10,7 @@ module.exports=function(){
 	})
 
 	////User
-	router.get('/u/signup',User.signup)
+	router.post('/u/signup',User.signup)
 	router.post('/u/verify',User.verify)
 	router.post('/u/update',User.update)
 	////App
